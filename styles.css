@@ -162,7 +162,30 @@ main{
 }
 @media screen and (max-width: 375px) {
     header{
+        width: 100%;
         padding: 2em 1em;
+    }
+    main{
+        width: 100%;
+    }
+    .slider{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        min-height: 300px;
+    }
+    .slide{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .slide-image{
+        width: 100%;
+        height: 300px;
+    }
+    .slide-details{
+        width: 100%;
+        padding: 2em;
     }
     .ham-menu{
         display: grid;
@@ -174,5 +197,23 @@ main{
     }
     .menu{
         display: none;
+    }
+    .btn{
+        top: 240px;
+        right: 0;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-sec{
+        width: 100%;
+    }
+    .image-sec img{
+        height: 300px;
+    }
+    .about-details{
+        width: 100%;
+        padding: 1em 2em;
     }
 }

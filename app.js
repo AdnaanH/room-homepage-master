@@ -27,3 +27,11 @@ nextButton.addEventListener("click", nextSlide);
 
 showSlide();
 
+
+const hamMenu = document.getElementById('ham-menu');
+const mobMenu = document.getElementById('menu')
+
+hamMenu.addEventListener('click', function () {
+    mobMenu.style.display = 'flex'
+    console.log('click')
+})
